@@ -57,36 +57,9 @@ Danach klickst Du auf "Speichern" und wechselst auf die Wizard Seite:
 Als erstes solltest du deinem Router einen Namen geben. Nimm einfach einen, der dir gefällt und vielleicht etwas über den Standort des Routers aussagt. Bitte achte darauf, dass keine Leerzeichen im Namen enthalten sind. Verwende stattdessen einfach einen Bindestrich (“-”) oder Unterstrich (“_”).
 
 ##### Segment
-Aufgrund des schnellen Wachstums des Netzes und den damit verbundenen größeren Anforderungen haben wir uns entschlossen Freifunk München in die 3 [Segmente](https://ffmuc.net/wiki/p/Segmente) "Kernbereich", "Umland" und "Welcome" aufzuteilen. <br>
-Knoten aus unterschiedlichen Segmenten können **nicht** miteinander meshen, sind jedoch über das VPN verbunden.
-
-<div class="row">        
-    <div class="col-sm-6">
-        <div class="list-group">
-
-<div class="panel-heading" markdown="1" style="text-align:center">
-### Kernbereich
-
-Innerhalb A99 Autobahnring
-
-![Kernbereich](/assets/router-konfigurieren/kernbereich.jpg)
-</div>
-        </div>            
-    </div><!-- /.col-sm-6 -->
-    <div class="col-sm-6">
-    <div class="list-group">
-
-<div class="panel-heading" markdown="1" style="text-align:center">
-### Umland
-
-Außerhalb A99 Autobahnring
-
-![Umland](/assets/router-konfigurieren/umland.jpg)
-</div>
-
-    </div>
-    </div><!-- /.col-sm-6 -->
-</div>
+Aufgrund des schnellen Wachstums des Netzes und den damit verbundenen größeren Anforderungen haben wir uns entschlossen Freifunk München in die folgenden [Segmente](http://umap.openstreetmap.fr/en/map/ffmuc-sites_319166#9/47.9421/10.6128) "muc_cty", "muc_nord", "muc_ost", "muc_sued", "muc_west", "uml_nord", "uml_ost", "uml_sued", "uml_west" und "welt" aufzuteilen. <br>
+Knoten aus unterschiedlichen Segmenten können **nicht** miteinander meshen, sind jedoch über das VPN verbunden. <br>
+Beim Einrichten wählst du deinen Standort aus und wirst somit automatisch in ein Segment eingeteilt. Eine manuelle Auswahl des Segmentes ist allerdings auch möglich
 
 ##### Mesh-VPN aktivieren (empfohlen)
 Wenn du bei “Mesh-VPN aktivieren” ein Häkchen setzt, wird über deinen Internet-Anschluss eine verschlüsselte Verbindung zu den Freifunk-Servern hergestellt. Diese verbinden deinen Router dann mit weit entfernten Freifunk-Routern und dem Internet, ohne Störerhaftung.
